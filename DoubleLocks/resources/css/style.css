@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+
+body {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #131316;
+  color: white;
+}
+/* promt */
+.promt {
+  margin: 15vh 0rem 1.5rem 0rem;
+  text-align: center;
+  padding: 0rem 1rem 0rem 1rem;
+}
+/* indicator */
+#indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8vh;
+}
+#circle {
+  margin: 0rem 1rem 0rem 1rem;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+/* photo section */
+.grid-container {
+  display: grid;
+  gap: 2.5vh;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3.5vh;
+  background-color: hsla(240, 12%, 41%, 0.34);
+  margin: 0 1vh 0 1vh;
+  border-radius: 1rem;
+}
+.grid-item img {
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
